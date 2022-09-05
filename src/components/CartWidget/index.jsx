@@ -4,7 +4,11 @@ import { BsFillCartCheckFill } from 'react-icons/bs';
 
 const CardWidget = () => {
 return (
-    <div>
+    <div style={{
+        position: 'absolute',
+        right: '20px',
+        top: '5px'
+    }}>
         <BsFillCartCheckFill color='white' size={35}/>
     </div>
 )
