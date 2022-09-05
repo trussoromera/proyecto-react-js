@@ -1,5 +1,5 @@
 import React from 'react';
-import CardWidget from '../../containers/ItemListContainer/CartWidget';
+import CardWidget from '../CartWidget';
 import './styles.scss';
 
 const NavBar = ({categories}) => {
