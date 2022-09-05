@@ -1,25 +1,24 @@
 import React from 'react';
+import CardWidget from '../../containers/ItemListContainer/CartWidget';
 import './styles.scss';
 
-const NavBar = () => {
-  return (
+const NavBar = ({categories}) => {
+return (
     <div>
         <ul>
-            <li>
-                <a href="">Home</a>
-            </li>
-            <li>
-                <a href="">Kitesurf</a>
-            </li>
-            <li>
-                <a href="">Windsurf</a>
-            </li>
-            <li>
-                <a href="">Nosotros</a>
-            </li>
+            {
+                categories.map((category,i=0) => {
+                    i = i + 1;
+                    return(
+                        <li key={i}>
+                            <a href="/#">{category}</a>
+                        </li>
+                    )})
+                    }
+            <CardWidget/>
         </ul>
     </div>
-  )
+)
 }
 
 export default NavBar
