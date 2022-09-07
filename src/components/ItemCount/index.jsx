@@ -1,22 +1,49 @@
-import React from 'react';
-import './styles.scss';
-import { useState } from 'react';
+import React, { useState } from 'react';
+import './styles.scss'
 
-export default function App(){
-    const[cantidad, setCantidad] =useState(0);
-    const[fecha, setFecha] = useState("");
+const ItemCount = ({stock, initial, onAdd}) => {
 
-    const eventClick = (e) => {
-        setCantidad(cantidad + 1);
-        setFecha(new Date().toLocaleString);
+    const [contador, setCount] = useState(initial)
+
+    const handleAdd = () => {
+        if (contador < stock) {
+            setCount (contador + 1)
+        }
+        else {
+            alert("No hay suficiente stock disponible");
+        }
     }
-    return
-    <>
+
+    const handleDecrement = () => {
+
+    }
     
-    </>
+    const addCart = () => {
+        onAdd(count);
+        setCount (initial);
+    }
+    
+    useEffect(()=> {
+        
+        console.log("Se montó el ItemCount");
+    }, []);
+
+    
+    useEffect(()=> {
+        console.log("Se actualiza el estado!")
+    }, [count]);
+    
+    
 
 
+    return (
+    <div>
+        <button onClick={handleDecrement}>-</button>
+        <h2>{count}</h2>
+        <button onClick={handleAdd}>+</button>
+        <button onClick={addCart}>Agregar al carrito</button>
+    </div>
+    );
+};
 
-
-
-}
+export default ItemCount
