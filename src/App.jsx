@@ -1,3 +1,4 @@
+import ItemCount from "./components/ItemCount";
 import NavBar from "./components/NavBar";
 import ItemListContainer from "./containers/ItemListContainer";
 
@@ -11,7 +12,7 @@ function App() {
     categories={categorias}
     />
     <ItemListContainer greeting={"Bienvenidos a nuestro Ecommerce"}/>
-    
+    <ItemCount stock={5} initial={1} onAdd={console.log}/>
     </>
   )
 }

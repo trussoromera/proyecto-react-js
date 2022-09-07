@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './styles.scss'
 
 const ItemCount = ({stock, initial, onAdd}) => {
@@ -19,7 +19,7 @@ const ItemCount = ({stock, initial, onAdd}) => {
     }
     
     const addCart = () => {
-        onAdd(count);
+        onAdd(contador);
         setCount (initial);
     }
     
@@ -31,7 +31,7 @@ const ItemCount = ({stock, initial, onAdd}) => {
     
     useEffect(()=> {
         console.log("Se actualiza el estado!")
-    }, [count]);
+    }, [contador]);
     
     
 
@@ -39,7 +39,7 @@ const ItemCount = ({stock, initial, onAdd}) => {
     return (
     <div>
         <button onClick={handleDecrement}>-</button>
-        <h2>{count}</h2>
+        <h2>{contador}</h2>
         <button onClick={handleAdd}>+</button>
         <button onClick={addCart}>Agregar al carrito</button>
     </div>
