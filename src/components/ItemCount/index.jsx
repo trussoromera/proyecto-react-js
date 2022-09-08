@@ -15,6 +15,14 @@ const ItemCount = ({stock, initial, onAdd}) => {
     }
 
     const handleDecrement = () => {
+        
+        if (contador <= 0){
+            alert("No hay stock de numeros negativos");
+        }
+        else{
+        setCount(contador - 1)
+    }
+        
 
     }
     
