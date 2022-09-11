@@ -4,6 +4,7 @@ import ItemListContainer from "./containers/ItemListContainer";
 
 function App() {
   const categorias = ["Home" , "Kitesurf" , "Windsurf" , "Nosotros"];
+  
 
   
   return (
