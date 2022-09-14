@@ -1,0 +1,22 @@
+.padre{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    border: solid 4px black;
+    border-radius: 20px;
+}
+
+img{
+    width: 500px;
+}
+
+.container-descrip{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin: 50px;
+}
+
+h3{
+    margin-bottom: 50px;
+}

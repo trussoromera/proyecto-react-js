@@ -1,6 +1,7 @@
 import ItemCount from "./components/ItemCount";
 import NavBar from "./components/NavBar";
-import ItemListContainer from "./containers/ItemListContainer";
+import ItemDetalContainer from "./containers/ItemDetalContainer";
+// import ItemListContainer from "./containers/ItemListContainer";
 
 function App() {
   const categorias = ["Home" , "Kitesurf" , "Windsurf" , "Nosotros"];
@@ -12,8 +13,9 @@ function App() {
     <NavBar
     categories={categorias}
     />
-    <ItemListContainer greeting={"Bienvenidos a nuestro Ecommerce"}/>
-    <ItemCount stock={5} initial={1} onAdd={console.log}/>
+    {/* <ItemListContainer greeting={"Bienvenidos a nuestro Ecommerce"}/>
+    <ItemCount stock={5} initial={1} onAdd={console.log}/> */}
+    <ItemDetalContainer/>
     </>
   )
 }
