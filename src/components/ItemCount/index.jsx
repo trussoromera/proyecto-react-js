@@ -49,8 +49,8 @@ const ItemCount = ({stock, initial, onAdd}) => {
     <div className='alineador'>
         <h2>{contador}</h2>
         <button onClick={handleDecrement}>-</button>
-        <button onClick={handleAdd}>+</button>
         <button onClick={addCart}>Agregar al carrito</button>
+        <button onClick={handleAdd}>+</button>
     </div>
     );
 };
