@@ -1,9 +1,10 @@
 import React from 'react'
 import Item from '../Item'
+import './styles.scss'
 
 const ItemList = ({products}) => {
   return (
-    <div>
+    <div className='item-config'>
         {products.map(product => {
             return <Item key={product.id} product={product}/>
         })}

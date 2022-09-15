@@ -1,15 +1,29 @@
-.contenedor{
+.card-container{
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    text-align: center;
-    margin-bottom: 3rem;
-    border: solid 4px black;
+    
+    gap: 30px;
+    padding: 15px;
+    width: 400px;
     height: 500px;
-    color: black;
-    margin-top: 2rem;
-    width: 385px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 20px;
+    box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.79);
+    transition: 0.3s ease;
+    cursor: pointer;
+
+    .card-title{
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        font-family: "Roboto";
+    }
+
+    .card-img{
+        max-height: 350px;
+    }
 }
 
-
+.card-container:hover{
+    transform: scale(1.06);
+    transition: 0.3s ease;
+}

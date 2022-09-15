@@ -1,8 +1,12 @@
 import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 import ItemDetail from "../../components/ItemDetail";
 
-const ItemDetalContainer = () => {
+
+const ItemDetailContainer = () => {
   const [productDetail, setProductDetail] =useState({})
+
+  const {productId} = useParams();
   
   useEffect(()=> {
     
@@ -10,18 +14,18 @@ const ItemDetalContainer = () => {
     const getProducts = async () =>{
 
       try{
-          const response = await fetch('https://fakestoreapi.com/products/1')
+          const response = await fetch(`https://fakestoreapi.com/products/${productId}`)
           const data = await response.json();
-          setProductDetail(data)
+          setProductDetail(data);
         
         } catch (error){
-          console.log(error)
+          console.log(error);
         }
         
         }
 
         getProducts();
-  }, [])
+  }, [productId])
 
   console.log(productDetail);
   
@@ -30,4 +34,4 @@ const ItemDetalContainer = () => {
 };
 
 
-export default ItemDetalContainer
+export default ItemDetailContainer

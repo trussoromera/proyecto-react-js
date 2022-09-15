@@ -1,22 +1,33 @@
-import ItemCount from "./components/ItemCount";
+// import ItemCount from "./components/ItemCount";
+import './styles.scss';
 import NavBar from "./components/NavBar";
-import ItemDetalContainer from "./containers/ItemDetalContainer";
+import ItemDetailContainer from './containers/ItemDetailContainer';
+import ItemListContainer from "./containers/ItemListContainer";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+import NotFound from './components/NotFound';
+
 // import ItemListContainer from "./containers/ItemListContainer";
 
 function App() {
-  const categorias = ["Home" , "Kitesurf" , "Windsurf" , "Nosotros"];
+  const categorias = ["Home" ,"Men's clothing" , "Women's clothing" , "Electronics" , "Jewelery"];
   
 
   
   return (
-    <>
-    <NavBar
-    categories={categorias}
-    />
-    {/* <ItemListContainer greeting={"Bienvenidos a nuestro Ecommerce"}/>
-    <ItemCount stock={5} initial={1} onAdd={console.log}/> */}
-    <ItemDetalContainer/>
-    </>
+    <BrowserRouter>
+      <NavBar categories={categorias}/>
+      <Routes>
+        <Route path="/" element={<ItemListContainer/>}/>
+        {/* todo lo que viene despues de : va a ser dinamicamente */}
+        <Route path="/category/:categoryId" element={<ItemListContainer/>}/>
+        <Route path="/detail/:productId" element={<ItemDetailContainer/>}/>
+        <Route path="*" element={<NotFound/>}/>
+    </Routes>
+    </BrowserRouter>
   )
 }
 

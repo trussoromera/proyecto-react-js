@@ -1,18 +1,21 @@
 import React from 'react';
 import CardWidget from '../CartWidget';
 import './styles.scss';
+import {Link} from 'react-router-dom';
 
 const NavBar = ({categories}) => {
 return (
     <div>
         <ul>
             {
-                categories.map((category,i=0) => {
-                    i = i + 1;
+                categories.map((category, index) => {
+                    
                     return(
-                        <li key={i}>
-                            <a href="/#">{category}</a>
-                        </li>
+                    
+                    <li key={index}>
+                        <Link  to ={`/${category}`}>{category}</Link>
+                    </li>
+                    
                     )})
                     }
             <CardWidget/>

@@ -1,18 +1,21 @@
-import React from 'react'
-import ItemCount from '../ItemCount'
-import './styles.scss'
+import React from 'react';
+import './styles.scss';
+import {useNavigate} from 'react-router-dom';
 
+//Corresponde a la card del producto
 const Item = ({product}) => {
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    navigate(`/detail/${product.id}`)
+  }
+
   return (
-  
-  <div className='contenedor'>
-    <img src={product.image} width={250}/>
-    <h3>{product.title}</h3>
-    <ItemCount stock={5} initial={1} onAdd={console.log}/>
-  </div>
-  
+    <div className='card-container' onClick={handleNavigate}>
+      <img className="card-img" src={product.image} width={250} alt="product"/>
+      <h1 className='card-title'>{product.title}</h1>
+    </div>
   )
 }
-
 
 export default Item

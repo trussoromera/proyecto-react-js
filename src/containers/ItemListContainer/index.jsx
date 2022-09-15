@@ -1,43 +1,40 @@
-import React, { useEffect, useState } from 'react';
-import './styles.scss';
-import ItemList from '../../components/ItemList';
- 
-const ItemListContainer = ({greeting}) => {
+import React, { useEffect, useState } from "react";
+import ItemList from "../../components/ItemList";
+import { useParams } from 'react-router-dom';
 
-  const [productos, setProductos] = useState([])
+const ItemListContainer = ({ greeting }) => {
+    const [productos, setProductos] = useState([]);
 
-  useEffect(()=> {
-    
-    (async ()=> {
-    // const obtenerProductos = new Promise ((accept, reject)=> {
-    //     setTimeout(()=> {
-    //       accept(products)
-    //     }, 3000);
-    //   })
-      
+    const { categoryId } = useParams();
 
-        try {
-          const response = await fetch("https://fakestoreapi.com/products");
-          const productos = await response.json();
-          setProductos(productos);
-        } catch (error) {
-          console.log(error);
-        }
+    console.log(categoryId);
 
-      })()
+    useEffect(() => {
+        (async () => {
+            try {
+                if (categoryId) {
+                    const response = await fetch(
+                        "https://fakestoreapi.com/products/category/" + categoryId
+                    );
+                    const productos = await response.json();
+                    setProductos(productos);
+                }
+                else {
+                    const response = await fetch(
+                        "https://fakestoreapi.com/products"
+                    );
+                    const productos = await response.json();
+                    setProductos(productos);
+                }
+            } catch (error) {
+                console.log(error);
+            }
+        })();
+    }, [categoryId]);
 
-  }, [])
- 
-  console.log(productos)
+    console.log(productos);
 
-  return (
-    <div className='item-list-container'>
-        <h1>{greeting}</h1>
-        <ItemList products={productos}/>
-
-        
-    </div>
-  )
-}
+    return <ItemList products={productos} />;
+};
 
 export default ItemListContainer;
