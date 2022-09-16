@@ -10,16 +10,13 @@ import {
 } from "react-router-dom";
 import NotFound from './components/NotFound';
 
-// import ItemListContainer from "./containers/ItemListContainer";
 
 function App() {
-  const categorias = ["Home" ,"Men's clothing" , "Women's clothing" , "Electronics" , "Jewelery"];
   
-
   
   return (
     <BrowserRouter>
-      <NavBar categories={categorias}/>
+      <NavBar/>
       <Routes>
         <Route path="/" element={<ItemListContainer/>}/>
         {/* todo lo que viene despues de : va a ser dinamicamente */}
