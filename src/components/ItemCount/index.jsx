@@ -32,7 +32,7 @@ const ItemCount = ({stock, initial, onAdd}) => {
     const addCart = () => {
         onAdd(contador);
         setCount (initial);
-        console.log('se agrego', contador, ' al carrito')
+        
     }
     //Montaje del componente
     useEffect(()=> {
