@@ -37,12 +37,12 @@ const ItemCount = ({stock, initial, onAdd}) => {
     //Montaje del componente
     useEffect(()=> {
         //El array de dependencias vacío implica que el callback se ejecutará cuando se MONTA el componente por UNICA vez.
-        console.log("Se montó el ItemCount");
+        
     }, []);
 
     //  La funcion callback dentro del useEffect se ejecutara cuando se MONTE el componente, y cuando se ACTUALICE el valor del contador.
     useEffect(()=> {
-        console.log("Se actualiza el estado!")
+        
     }, [contador]);
     
     return (
