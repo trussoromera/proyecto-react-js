@@ -20,11 +20,7 @@ return (
         right: '20px',
         top: '5px'
     }}>
-        
-
         <BsFillCartCheckFill color='white' size={35} onClick={navegando}/>
-        
-        
     </div>
 )
 }
