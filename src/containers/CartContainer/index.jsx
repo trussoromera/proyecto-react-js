@@ -3,10 +3,18 @@ import { Shop } from '../../context/ShopProvider';
 import { DataGrid } from '@mui/x-data-grid';
 import { Button, CircularProgress } from "@mui/material";
 import './style.scss';
+import { useState } from 'react';
+import { db } from "../../firebase/config";
+import ordenGenerada from "../../services/generarOrden";
+import { collection, addDoc } from "firebase/firestore";
+import { doc, updateDoc, getDoc } from "firebase/firestore";
+
 
 const Cart = () => {
 
-  const { cart, removeItem, clearCart } = useContext(Shop);
+  const { cart, removeItem, clearCart, total } = useContext(Shop);
+
+  const [loading , setLoading] = useState(false);
 
   const renderImg = (image) => {
     return (
@@ -20,9 +28,41 @@ const Cart = () => {
       <Button
       onClick={() => removeItem (product)} variant ="contained" color="error">
         
-      </Button>
+      Borrar </Button>
     )
-  }
+  };
+
+  const handleBuy = async () => {
+    setLoading(true)
+    const importeTotal = total();
+    const orden = ordenGenerada(
+        "Sebastián",
+        "sebas@live.com",
+        11111111111,
+        cart,
+        importeTotal
+    );
+    console.log(orden);
+
+    // Add a new document with a generated id.
+    const docRef = await addDoc(collection(db, "orders"), orden);
+
+    //Actualizamos el stock del producto
+    cart.forEach(async (productoEnCarrito) => {
+        //Primero accedemos a la referencia del producto
+        const productRef = doc(db, "products", productoEnCarrito.id);
+        //Llamamos al snapshot, llamando a firebase
+        const productSnap = await getDoc(productRef);
+        //En snapshot.data() nos devuelve la información del documento a actualizar
+        await updateDoc(productRef, {
+            stock: productSnap.data().stock - productoEnCarrito.quantity,
+        });
+    });
+    setLoading(false);
+    alert(
+        `Gracias por su compra! Se generó la orden generada con ID: ${docRef.id}`
+    );
+};
 
 
   const columns = [
@@ -79,4 +119,4 @@ const Cart = () => {
 
 
 
-export default Cart
+export default Cart;

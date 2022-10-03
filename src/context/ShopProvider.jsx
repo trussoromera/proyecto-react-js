@@ -38,7 +38,7 @@ const ShopProvider = ({children}) => {
         return cart.some(product => product.id === id)
     }
 
-    const removeItem= (item) =>{
+    const removeItem = (itemToRemove) => {
         const filteredProducts = cart.filter(item => item !== itemToRemove);
         setCart(filteredProducts)
     }
@@ -47,8 +47,13 @@ const ShopProvider = ({children}) => {
         setCart([]);
     }
 
+    const total = () => {
+        const total = cart.reduce((acc, producto) => acc += producto.quantity * producto.price, 0)
+        return total;
+    }
+
     return (
-        <Shop.Provider value={{cart, addItem, removeItem, clearCart}}>
+        <Shop.Provider value={{cart, addItem, removeItem, clearCart, total}}>
             {children}
         </Shop.Provider>
     )
