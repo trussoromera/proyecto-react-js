@@ -36,24 +36,20 @@ const Cart = () => {
     setLoading(true)
     const importeTotal = total();
     const orden = ordenGenerada(
-        "Sebastián",
-        "sebas@live.com",
-        11111111111,
+        "Tomas",
+        "trussoromera@gmail.com",
+        123456,
         cart,
         importeTotal
     );
     console.log(orden);
 
-    // Add a new document with a generated id.
+    
     const docRef = await addDoc(collection(db, "orders"), orden);
 
-    //Actualizamos el stock del producto
     cart.forEach(async (productoEnCarrito) => {
-        //Primero accedemos a la referencia del producto
-        const productRef = doc(db, "products", productoEnCarrito.id);
-        //Llamamos al snapshot, llamando a firebase
+        const productRef = doc(db, "products", productoEnCarrito.id)
         const productSnap = await getDoc(productRef);
-        //En snapshot.data() nos devuelve la información del documento a actualizar
         await updateDoc(productRef, {
             stock: productSnap.data().stock - productoEnCarrito.quantity,
         });
@@ -69,9 +65,11 @@ const Cart = () => {
     { field: 'image', headerName: 'Image', width: 400, renderCell: renderImg },
     { field: 'title', headerName: 'Product', width: 450 },
     { field: 'quantity', headerName: 'Quantity', width: 80 },
-    {field: 'remove', headerName: '',width: 120, renderCell: renderRemover},
+    {field: 'remove', headerName: 'Remove',width: 120, renderCell: renderRemover},
     
   ];
+  
+  
   // asignamos un array con cada fila de la tabla, utilizando el cart
   const filas = []
   cart.forEach(item => {
@@ -79,7 +77,8 @@ const Cart = () => {
       id: item.id,
       image: item.image,
       title: item.title,
-      quantity: item.quantity
+      quantity: item.quantity,
+      remove: item,
     })
   })
 

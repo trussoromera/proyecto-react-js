@@ -25,7 +25,6 @@ const ItemDetail = ({ product }) => {
 
   }
 
-  console.log(qty)
   return (
     <div className='padre'>
 

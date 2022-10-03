@@ -28,10 +28,7 @@ const ShopProvider = ({children}) => {
         } else {
             const cartModificado = [...cart, item]
             setCart(cartModificado)
-
         }
-        
-        
     }
 
     const isInCart = (id) =>{

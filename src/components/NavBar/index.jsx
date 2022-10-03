@@ -61,7 +61,7 @@ return (
                         Signup
                     </Button>
                 </div>
-                <CartWidget />
+                <CartWidget/>
                 
             </ul>
             {(loginModal || signupModal) && (
