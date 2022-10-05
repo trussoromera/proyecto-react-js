@@ -15,7 +15,7 @@ const Item = ({product}) => {
     <div className='card-container' onClick={handleNavigate}>
       <img className="card-img" src={product.image} width={250} height={300} alt="product"/>
       <h1 className='card-title'>{product.title}</h1>
-      <h3>${product.price}</h3>
+      <h2>${product.price}</h2>
     </div>
   )
 }
