@@ -43,6 +43,7 @@ const Cart = () => {
         importeTotal
     );
     console.log(orden);
+    clearCart();
 
     
     const docRef = await addDoc(collection(db, "orders"), orden);
