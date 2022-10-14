@@ -1,26 +1,37 @@
-import { Form, Button } from 'react-bootstrap'
+import React from 'react';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+import './styles.scss'
 
-function CartForm({ confirmarCompra }){
-    return(
-        <Form id="form" action="#" onSubmit={confirmarCompra} className='d-flex flex-column m-auto text-white fw-bold col-12 col-md-4'>
-            <Form.Group className="mb-3" controlId="formNombre">
-                <Form.Label>Apellido y Nombre</Form.Label>
-                <Form.Control type="text" placeholder="Ex. Juan Perez" />                    
+
+
+function CartForm() {
+    return (
+        <Form className='contenedora'>
+            <Form.Group className="mb-3" controlId="formBasicName">
+                <Form.Label>Nombre</Form.Label>
+                <Form.Control type="text" placeholder="ingresar nombre completo" />
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formBasicEmail">
-                <Form.Label>Direccion de mail</Form.Label>
-                <Form.Control type="email" placeholder="exmple@gmail.com" />                    
+                <Form.Label>Email</Form.Label>
+                <Form.Control type="text" placeholder="Ingrese Email" />
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="formTel">
-                <Form.Label>Numero de telefono</Form.Label>
-                <Form.Control type="tel" placeholder="Ex. 4567-4582" />
+            <Form.Group className="mb-3" controlId="formBasicTelephone">
+                <Form.Label>Telefono</Form.Label>
+                <Form.Control type="number" placeholder="Ingresar Telefono" />
             </Form.Group>
-            
-            <Button variant="primary" className='fs-5' type="submit">Comprar</Button>
+
+            <Form.Group className="mb-3" controlId="formBasicCheckbox">
+                <Form.Check type="checkbox" label="Check me out" />
+            </Form.Group>
+            <Button variant="primary" type="submit">
+                Submit
+            </Button>
         </Form>
     );
 }
 
 export default CartForm;
+

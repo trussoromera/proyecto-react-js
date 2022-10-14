@@ -11,6 +11,9 @@ import {
 } from "react-router-dom";
 import NotFound from './components/NotFound';
 import ShopProvider from './context/ShopProvider';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 
 function App() {
@@ -20,6 +23,7 @@ function App() {
     <ShopProvider>
       <BrowserRouter>
         <NavBar/>
+        
         <Routes>
           <Route path="/" element={<ItemListContainer/>}/>
           {/* todo lo que viene despues de : va a ser dinamicamente */}

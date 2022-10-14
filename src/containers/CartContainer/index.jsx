@@ -8,6 +8,7 @@ import { db } from "../../firebase/config";
 import ordenGenerada from "../../services/generarOrden";
 import { collection, addDoc } from "firebase/firestore";
 import { doc, updateDoc, getDoc } from "firebase/firestore";
+import CartForm from '../../components/CartForm';
 
 
 const Cart = () => {
@@ -86,7 +87,9 @@ const Cart = () => {
 
 
   return (
+    
     <div style={{ height: 400, width: "100%" }}>
+            <CartForm/>
             <DataGrid
                 rows={filas}
                 columns={columns}
@@ -108,7 +111,9 @@ const Cart = () => {
                         alignItems: "center",
                     }}
                 >
+                    
                     <CircularProgress/>
+                    
                 </div>
             ) : (
                 <Button onClick={handleBuy}>Confirmar compra</Button>
