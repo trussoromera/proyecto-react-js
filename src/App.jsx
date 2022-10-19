@@ -1,6 +1,7 @@
 // import ItemCount from "./components/ItemCount";
 import './styles.scss';
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 import ItemDetailContainer from './containers/ItemDetailContainer';
 import ItemListContainer from "./containers/ItemListContainer";
 import Cart from './containers/CartContainer';
@@ -11,19 +12,24 @@ import {
 } from "react-router-dom";
 import NotFound from './components/NotFound';
 import ShopProvider from './context/ShopProvider';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import { useEffect } from 'react';
+// import algoritmoGuardadoAutomático from './services/guardarProductos';
 
 
 
 
 function App() {
+
+  // useEffect(()=>{
+  //   console.log("se deberia ejecutar una sola vez")
+  //   algoritmoGuardadoAutomático()
+  // }, []) 
   
   
   return (
     <ShopProvider>
       <BrowserRouter>
         <NavBar/>
-        
         <Routes>
           <Route path="/" element={<ItemListContainer/>}/>
           {/* todo lo que viene despues de : va a ser dinamicamente */}
@@ -33,7 +39,9 @@ function App() {
           <Route path="*" element={<NotFound/>}/>
         </Routes>
       </BrowserRouter>
+      {/* <Footer/> */}
     </ShopProvider>
+    
   );
 }
 

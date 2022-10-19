@@ -10,7 +10,6 @@ import { collection, addDoc } from "firebase/firestore";
 import { doc, updateDoc, getDoc } from "firebase/firestore";
 import CartForm from '../../components/CartForm';
 
-
 const Cart = () => {
 
   const { cart, removeItem, clearCart, total } = useContext(Shop);
@@ -37,13 +36,17 @@ const Cart = () => {
     setLoading(true)
     const importeTotal = total();
     const orden = ordenGenerada(
-        "Tomas",
-        "trussoromera@gmail.com",
-        123456,
+        
         cart,
         importeTotal
     );
-    console.log(orden);
+    
+
+    document.getElementById("formBasicName").value='',
+    document.getElementById("formBasicEmail").value='',
+    document.getElementById("formBasicTelephone").value='',
+    
+    
     clearCart();
 
     
@@ -61,7 +64,6 @@ const Cart = () => {
         `Gracias por su compra! Se generó la orden generada con ID: ${docRef.id}`
     );
 };
-
 
   const columns = [
     { field: 'image', headerName: 'Image', width: 400, renderCell: renderImg },
@@ -83,7 +85,6 @@ const Cart = () => {
       remove: item,
     })
   })
-
 
 
   return (
@@ -121,7 +122,6 @@ const Cart = () => {
         </div>
   );
 }
-
 
 
 export default Cart;

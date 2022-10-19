@@ -1,10 +1,10 @@
 //Función auxiliar para generar la orden.
-const ordenGenerada = (nombre, email, telefono, cart, total) => {
+const ordenGenerada = ( cart, total) => {
     return {
         buyer: {
-            nombre: nombre,
-            email: email,
-            telefono: telefono,
+            nombre: document.getElementById("formBasicName").value,
+            email: document.getElementById("formBasicEmail").value,
+            telefono: document.getElementById("formBasicTelephone").value,
         },
         items: cart
         ,
