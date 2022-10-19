@@ -91,6 +91,7 @@ const Cart = () => {
     
     <div style={{ height: 400, width: "100%" }}>
             <CartForm/>
+            
             <DataGrid
                 rows={filas}
                 columns={columns}
