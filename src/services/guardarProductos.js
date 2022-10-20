@@ -8,7 +8,6 @@ const algoritmoGuardadoAutomático = async () => {
         const response = await fetch('/mocks/data.json');
         const productosAGuardar = await response.json();
     
-        //
         productosAGuardar.forEach(async (producto) => {
             const docRef = await addDoc(collection(db, "products"), {
                 title: producto.title,

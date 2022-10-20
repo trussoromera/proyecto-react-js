@@ -1,7 +1,6 @@
 // import ItemCount from "./components/ItemCount";
 import './styles.scss';
 import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
 import ItemDetailContainer from './containers/ItemDetailContainer';
 import ItemListContainer from "./containers/ItemListContainer";
 import Cart from './containers/CartContainer';
@@ -39,7 +38,6 @@ function App() {
           <Route path="*" element={<NotFound/>}/>
         </Routes>
       </BrowserRouter>
-      {/* <Footer/> */}
     </ShopProvider>
     
   );

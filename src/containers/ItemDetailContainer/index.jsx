@@ -10,11 +10,8 @@ const ItemDetailContainer = () => {
 
   const {productId} = useParams();
 
-  
-  
   useEffect(()=> {
     
-      
     const getProducts = async () =>{
 
       try{
@@ -27,11 +24,7 @@ const ItemDetailContainer = () => {
           } else {
             // doc.data() will be undefined in this case
             console.log("No such document!");
-          }
-
-
-
-          
+          }        
         
         } catch (error){
           console.log(error);
@@ -42,7 +35,6 @@ const ItemDetailContainer = () => {
         getProducts();
   }, [productId])
 
-  
   
   return <ItemDetail product={productDetail}/>
 

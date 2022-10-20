@@ -6,17 +6,10 @@ import { Button } from "@mui/material";
 import { useState } from "react";
 import AuthContainer from "../../containers/AuthContainer";
 
-
-
-
 const NavBar = () => {
     
-
     const [loginModal, setLoginModal] = useState(false);
     const [signupModal, setSignupModal] = useState(false);
-
-
-
 
     const handleLogin = () => {
         setLoginModal(true);
@@ -25,7 +18,6 @@ const NavBar = () => {
     const handleSignup = ()=> {
         setSignupModal(true);
     }
-
 
 return (
     <>
@@ -61,8 +53,7 @@ return (
                         Signup
                     </Button>
                 </div>
-                <CartWidget/>
-                
+                <CartWidget/> 
             </ul>
             {(loginModal || signupModal) && (
                     <AuthContainer
@@ -74,7 +65,6 @@ return (
                         signUp={signupModal}
                     />
                 )}
-
         </>
     
 )
