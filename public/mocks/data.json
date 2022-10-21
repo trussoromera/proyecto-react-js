@@ -1,242 +1,165 @@
 [
     {
         "id": 1,
-        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-        "price": 109.95,
-        "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-        "category": "men's clothing",
-        "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-        "rating": {
-            "rate": 3.9,
-            "count": 120
-        }
+        "title": "Vela Duotone",
+        "description": "9m",
+        "category": "kitesurf",
+        "price": 100000,
+        "stock": 10,
+        "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/102/572/products/producto-vol3-321-a00aff31d92b154be016506429751962-640-0.png"
     },
     {
         "id": 2,
-        "title": "Mens Casual Premium Slim Fit T-Shirts ",
-        "price": 22.3,
-        "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
-        "category": "men's clothing",
-        "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
-        "rating": {
-            "rate": 4.1,
-            "count": 259
-        }
+        "title": "Vela Chaos",
+        "description": "10m",
+        "category": "kitesurf",
+        "price": 110000,
+        "stock": 25,
+        "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/102/572/products/producto-vol3-111-29fd89516c8b28904f16498610682703-640-0.png"
     },
     {
         "id": 3,
-        "title": "Mens Cotton Jacket",
-        "price": 55.99,
-        "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
-        "category": "men's clothing",
-        "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
-        "rating": {
-            "rate": 4.7,
-            "count": 500
-        }
+        "title": "Vela Cabrinha",
+        "description": "9m",
+        "category": "kitesurf",
+        "price": 90000,
+        "stock": 5,
+        "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/102/572/products/producto-vol3-71-62b560b5a56280365216498586713288-640-0.png"
     },
     {
         "id": 4,
-        "title": "Mens Casual Slim Fit",
-        "price": 15.99,
-        "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
-        "category": "men's clothing",
-        "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
-        "rating": {
-            "rate": 2.1,
-            "count": 430
-        }
+        "title": "Vela Duotone",
+        "description": "10m",
+        "category": "kitesurf",
+        "price": 140000,
+        "stock": 10,
+        "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/102/572/products/producto-tn-231-d914b32a8e8976d81f16400174720652-640-0.png"
     },
     {
         "id": 5,
-        "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
-        "price": 695,
-        "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
-        "category": "jewelery",
-        "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
-        "rating": {
-            "rate": 4.6,
-            "count": 400
-        }
-    },
+        "title": "Vela Duotone",
+        "description": "11m",
+        "category": "kitesurf",
+        "price": 160000,
+        "stock": 13,
+        "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/102/572/products/producto-vol3-381-787e378f57798a112416506439549913-640-0.png"
+    }, 
     {
         "id": 6,
-        "title": "Solid Gold Petite Micropave ",
-        "price": 168,
-        "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
-        "category": "jewelery",
-        "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
-        "rating": {
-            "rate": 3.9,
-            "count": 70
-        }
+        "title": "Tabla Cabrinha",
+        "description": "El Ace Hybrid combina técnicas de construcción de vanguardia en una forma de freeride de rendimiento increíblemente divertida.En el núcleo del Ace Hybrid se encuentra una construcción híbrida de espuma / paulownia en forma de panal. La combinación perfecta de estos materiales de primera calidad da como resultado una relación resistencia / peso optimizada que es increíblemente viva bajo los pies.Múltiples tiras de carbono unidireccionales bloquean el núcleo en la parte superior e inferior mejorando la respuesta y facilitando un pop explosivo.",
+        "category": "kitesurf",
+        "price": 45000,
+        "stock": 9,
+        "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/102/572/products/producto-vol4-2022-08-23t172605-5421-c069cec89b219ba75f16612864076193-640-0.png"
     },
     {
         "id": 7,
-        "title": "White Gold Plated Princess",
-        "price": 9.99,
-        "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
-        "category": "jewelery",
-        "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
-        "rating": {
-            "rate": 3,
-            "count": 400
-        }
+        "title": "Vela Neilplryde",
+        "description": "La vela viene con todos sus accesorios, es el modelo Fly 5.1 del año 2017. Es una vela para freestyle y poca",
+        "category": "windsurf",
+        "price": 100000,
+        "stock": 25,
+        "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/102/572/products/producto-vol4-2022-09-08t111753-436-366f96edcf063df48d16628693491290-640-0.png"
     },
     {
         "id": 8,
-        "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
-        "price": 10.99,
-        "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
-        "category": "jewelery",
-        "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
-        "rating": {
-            "rate": 1.9,
-            "count": 100
-        }
+        "title": "Windsurf Vela Severne Foilglide 2 2021",
+        "description": "Tras el éxito de nuestra vela de competición con foil, la HyperGlide, hemos creado una versión freeride fácil de usar; el FoilGlide.   Compartiendo mucha tecnología e ideología, estas velas son lo último para frustrar. velas.   Para frustrar, esto hace que mantener el ajuste sea mucho más fácil y mucho más divertido de usar.",
+        "category": "windsurf",
+        "price": 254000,
+        "stock": 25,
+        "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/102/572/products/producto-vol4-361-92ef4033d5026d342a16572037548984-640-0.png"
     },
     {
         "id": 9,
-        "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
-        "price": 64,
-        "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
-        "category": "electronics",
-        "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
-        "rating": {
-            "rate": 3.3,
-            "count": 203
-        }
+        "title": "Windsurf Vela NP Racing Evo 8 2017",
+        "description": "Vela especialmente para los windsurfistas expertos en velocidad y slalom. Compartiendo mucha tecnología e ideología, estas velas son lo último para frustrar. velas. ",
+        "category": "windsurf",
+        "price": 248000,
+        "stock": 25,
+        "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/102/572/products/producto-vol4-2022-09-08t111539-1291-4034f20427b94ddcfb16626465465040-640-0.png"
     },
     {
         "id": 10,
-        "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
-        "price": 109,
-        "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
-        "category": "electronics",
-        "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
-        "rating": {
-            "rate": 2.9,
-            "count": 470
-        }
+        "title": "Vela Windsurf Neilpryde Atlas 2011",
+        "description": "Vela especialmente para los windsurfistas expertos en olas y saltos. Compartiendo mucha tecnología e ideología, estas velas son lo último para frustrar. velas.",
+        "category": "windsurf",
+        "price": 90000,
+        "stock": 25,
+        "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/102/572/products/producto-vol4-2022-08-26t141816-8931-eab0189906cfaec3f916615343146762-640-0.png"
     },
     {
         "id": 11,
-        "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
-        "price": 109,
-        "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
-        "category": "electronics",
-        "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
-        "rating": {
-            "rate": 4.8,
-            "count": 319
-        }
+        "title": "Tabla Snowboard Salomon 163 Pulse 2022",
+        "description": "La Pulse presenta un Flat Out Camber y cantos BiteFree para que te deslices de forma creativa y sin peligros. Presenta un núcleo Aspen con una forma Directional Twin muy versátil. Se trata de una elección fácil para quien desee explorar el freestyle todoterreno.",
+        "category": "snowboard",
+        "price": 180000,
+        "stock": 25,
+        "image": "https://http2.mlstatic.com/D_NQ_NP_682123-MLA51034607691_082022-O.webp"
     },
     {
         "id": 12,
-        "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
-        "price": 114,
-        "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
-        "category": "electronics",
-        "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
-        "rating": {
-            "rate": 4.8,
-            "count": 400
-        }
+        "title": "Tabla De Snowboard Santa Cruz Screaming Hand Cambera",
+        "description": "Original Banana - Revolucionaria mezcla de banana todo terreno estilo libre. Balancee entre sus pies con camber plano a leve a los puntos de contacto. Presión suave en la punta para flotar y trasluchar irreales, presión sólida entre los pies para girar con facilidad y una excelente sujeción del borde del hielo. El mejor contorno para aprender. ¡Irreal en todas partes!",
+        "category": "snowboard",
+        "price": 199000,
+        "stock": 25,
+        "image": "https://http2.mlstatic.com/D_NQ_NP_603664-MLA31578644292_072019-O.webp"
     },
     {
         "id": 13,
-        "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
-        "price": 599,
-        "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
-        "category": "electronics",
-        "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
-        "rating": {
-            "rate": 2.9,
-            "count": 250
-        }
+        "title": "Tabla De Snowboard Santa Cruz Mummy Wide Combo Camber",
+        "description": "El modelo Mummy nos transporta nuevamente a los orígenes del snowboard con el estilo de surfear nieve en polvo y dominar las líneas mas empinadas del fuera de pista. Medidas Wide disponibles para una flotación extra en nieve suelta y un excelente grip de los cantos para riders con pies grandes.",
+        "category": "snowboard",
+        "price": 70000,
+        "stock": 25,
+        "image": "https://http2.mlstatic.com/D_NQ_NP_2X_723651-MLA31593589019_072019-F.webp"
     },
     {
         "id": 14,
-        "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
-        "price": 999.99,
-        "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
-        "category": "electronics",
-        "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
-        "rating": {
-            "rate": 2.2,
-            "count": 140
-        }
+        "title": "Tabla De Snowboard Santa Cruz Rastatribe + Fijaciones Plasma",
+        "description": "La tabla de Snowboard Santa Cruz Rasta Tribe combina perfectamente un camber con “pop” con un suave “flex” que te creara una adicción al SlopeStyle que no podrás dejar. Maniobrable, agresiva y rápida. Todas las cualidades que un rider exigente puede pedir. Una de las mas livianas de la gama, con un diseño para entendidos. Autentica Twin. Todo el Flow bajo tus pies.",
+        "category": "snowboard",
+        "price": 120000,
+        "stock": 25,
+        "image": "https://http2.mlstatic.com/D_NQ_NP_893851-MLA41847666873_052020-O.webp"
     },
     {
         "id": 15,
-        "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
-        "price": 56.99,
-        "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
-        "category": "women's clothing",
-        "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
-        "rating": {
-            "rate": 2.6,
-            "count": 235
-        }
+        "title": "Wing Duotone Unit D/Lab 2022",
+        "description": "Unit D/LAB ha llegado para establecer un nuevo referente en el diseño de velas. Con más de un 15 % menos de peso y un 50 % más de rigidez en comparación con la versión Dacron original.",
+        "category": "wingfoil",
+        "price": 350000,
+        "stock": 25,
+        "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/102/572/products/producto-vol4-2022-08-24t163954-5801-2cb0a6b4e1b95352dd16615341239293-640-0.png"
     },
     {
         "id": 16,
-        "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
-        "price": 29.95,
-        "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
-        "category": "women's clothing",
-        "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
-        "rating": {
-            "rate": 2.9,
-            "count": 340
-        }
+        "title": "Wing Airush Freewing Air V2 2022",
+        "description": "El FreeWing AIR está diseñado desde principiantes hasta nivel avanzado del wing foil. La ventana estrecha y profunda, ahora dispuesta más cerca de la costilla, está diseñada para que puedas ver con claridad hacia dónde te diriges. Las nuevas ventanas traseras – en los tamaños más grandes, garantizan tu seguridad mientras te diviertes en el agua. El central strut o costilla central tiene un diseño más ancho en la zona que se conecta con parte frontal del wing, haciendo que esa conexión sea rígida y resistente, consiguiendo mayor potencia y estabilidad. Ahora puedes navegar más rápido y con mayor control.",
+        "category": "wingfoil",
+        "price": 290000,
+        "stock": 25,
+        "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/102/572/products/producto-vol3-21-176be882e45d76d86716515891851854-640-0.png"
     },
     {
         "id": 17,
-        "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
-        "price": 39.99,
-        "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
-        "category": "women's clothing",
-        "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
-        "rating": {
-            "rate": 3.8,
-            "count": 679
-        }
+        "title": "Tabla Fanatic Sky Wing 2022",
+        "description": "La gama se divide en tres direcciones diferentes, con las dos formas más pequeñas de 4'6 y 4'7 siendo tablas combinadas avanzadas Prone/Wing dedicadas, con bajo volumen, contornos inferiores más radicales y todas las características necesarias para superar los límites.",
+        "category": "wingfoil",
+        "price": 298000,
+        "stock": 25,
+        "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/102/572/products/producto-vol2-531-1cc6ee54acca2212c916430339134177-640-0.png"
     },
     {
         "id": 18,
-        "title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
-        "price": 9.85,
-        "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
-        "category": "women's clothing",
-        "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
-        "rating": {
-            "rate": 4.7,
-            "count": 130
-        }
-    },
-    {
-        "id": 19,
-        "title": "Opna Women's Short Sleeve Moisture",
-        "price": 7.95,
-        "description": "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
-        "category": "women's clothing",
-        "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
-        "rating": {
-            "rate": 4.5,
-            "count": 146
-        }
-    },
-    {
-        "id": 20,
-        "title": "DANVOUY Womens T Shirt Casual Cotton Short",
-        "price": 12.99,
-        "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
-        "category": "women's clothing",
-        "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
-        "rating": {
-            "rate": 3.6,
-            "count": 145
-        }
+        "title": "Wing Duotone Slick 2021 (Sin botavara)",
+        "description": "Lo mejor de ambos mundos: posicionamiento intuitivo de la mano y desvio neutral mas de power, debido al posicionamiento intuitivo de las manos. el manejo del ala es muy facil, ofrece un derrape muy neutral y mucho de power",
+        "category": "wingfoil",
+        "price": 300000,
+        "stock": 25,
+        "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/102/572/products/producto-vol3-421-c4b4a18926ac83db4f16508985304450-640-0.png"
     }
+    
 ]

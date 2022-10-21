@@ -15,7 +15,7 @@ const algoritmoGuardadoAutomático = async () => {
                 description: producto.description,
                 category: producto.category,
                 image: producto.image,
-                stock: 20,
+                stock: producto.stock,
             });
             console.log("Document written with ID: ", docRef.id);
         })

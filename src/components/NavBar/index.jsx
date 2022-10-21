@@ -26,16 +26,16 @@ return (
                 <Link to="/">Home</Link>
             </li>
             <li>
-                <Link to="/category/men's clothing">Men's clothing</Link>
+                <Link to="/category/kitesurf">Kitesurf</Link>
             </li>
             <li>
-                <Link to="/category/women's clothing">Women's clothing</Link>
+                <Link to="/category/windsurf">Windsurf</Link>
             </li>
             <li>
-                <Link to="/category/electronics">Electronics</Link>
+                <Link to="/category/snowboard">Snowboard</Link>
             </li>
             <li>
-                <Link to="/category/jewelery">Jewelery</Link>
+                <Link to="/category/wingfoil">WingFoil</Link>
             </li>
             <div className="buttons-container">
                     <Button
