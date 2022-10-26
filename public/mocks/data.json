@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Vela Duotone",
-        "description": "9m",
+        "description": "Este kite fue diseñado para impulsarte contra el viento rápidamente, con una dirección sin esfuerzo, un impulso extremo y un tiempo de suspensión garantizado para dejarte sin aliento.",
         "category": "kitesurf",
         "price": 100000,
         "stock": 10,
@@ -11,7 +11,7 @@
     {
         "id": 2,
         "title": "Vela Chaos",
-        "description": "10m",
+        "description": "Para 2022, hemos realizado pequeños refinamientos en la brida, por lo que Orbit conserva su ligero impulso de dirección, estabilidad, rendimiento de alta gama y recuperación de kiteloop. También hemos reducido aún más el peso de la cometa con nuevas vejigas más livianas en más tamaños, por lo que la cometa se siente aún más liviana y con mayor capacidad de respuesta en todas las condiciones.",
         "category": "kitesurf",
         "price": 110000,
         "stock": 25,
@@ -20,7 +20,7 @@
     {
         "id": 3,
         "title": "Vela Cabrinha",
-        "description": "9m",
+        "description": " Freeride, Freestyle, Lightwind El SOUL combina un gran confort con un carácter deportivo. La inspiradora construcción ligera de cometas técnica, los más altos estándares de seguridad y el control preciso y la retroalimentación de la barra. El gran relanzamiento del agua y el sistema de drenaje mejorado lo unen para hacer que el SOUL sea realmente fácil de usar.",
         "category": "kitesurf",
         "price": 90000,
         "stock": 5,
@@ -38,7 +38,7 @@
     {
         "id": 5,
         "title": "Vela Duotone",
-        "description": "11m",
+        "description": "El Carve es potente, reactivo y controlable. Podes realizar una maniobra de drift instantáneamente con un solo movimiento de muñeca, lo que te permite alcanzar grandes velocidades como también disminuir la velocidad rápidamente. Además, el Carve te estará acompañado en la ventana de viento y fuera de la zona de impacto. ",
         "category": "kitesurf",
         "price": 160000,
         "stock": 13,
