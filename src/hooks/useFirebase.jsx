@@ -8,16 +8,16 @@ const useFirebase = (categoryId) => {
     const [productos, setProductos] = useState([]);
     const [error, setError] = useState("")
 
-    useEffect(()=> {
+    useEffect(() => {
         (async () => {
             try {
                 setLoading(true);
                 //Ajustamos la query según el param que viene desde la navegación
                 const q = categoryId
                     ? query(
-                          collection(db, "products"),
-                          where("category", "==", categoryId)
-                      )
+                        collection(db, "products"),
+                        where("category", "==", categoryId)
+                    )
                     : query(collection(db, "products"));
 
                 //2do realizar el llamado a firebase
