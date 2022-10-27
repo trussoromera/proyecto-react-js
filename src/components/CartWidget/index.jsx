@@ -6,6 +6,7 @@ import { useNavigate } from 'react-router-dom';
 
 
 
+
 const CardWidget = () => {
     
     const navigate = useNavigate();
@@ -21,7 +22,8 @@ return (
         right: '20px',
         top: '5px'
     }}>
-        <BsFillCartCheckFill className='carrito-pointer' color='white' size={35} onClick={navegando}/>
+        <BsFillCartCheckFill className='carrito-pointer' color='white' size={35} onClick={navegando} />
+        
     </div>
 )
 }
